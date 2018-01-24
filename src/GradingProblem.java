@@ -17,11 +17,11 @@ public class GradingProblem {
 
             else {
 
-                int mutiple = (((grades[i] / 5) + 1) * 5);
+                int multiple = (((grades[i] / 5) + 1) * 5);
 
-                if (mutiple - grades[i] < 3){
+                if (multiple - grades[i] < 3){
 
-                    grades[i] = mutiple;
+                    grades[i] = multiple;
                 }
             }
         }
